@@ -1,0 +1,9 @@
+version: '3'
+services:
+  fourier:
+    build:
+      context: ./fourier
+    hostname: fourier
+    volumes:
+    - ./data:/opt/mill/fourier/data
+    
