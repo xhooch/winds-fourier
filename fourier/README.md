@@ -2,11 +2,11 @@
 
 **start calculation**
 
-mix calc in_file out_file threads
+cat sample.csv | mix calc out_file threads
 
 sample command for docker mode request
 
-mix calc data/in_file data/out_file 100
+cat sample.csv | mix calc data/out_file 100
 
 ## Installation
 
